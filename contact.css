@@ -1,0 +1,62 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+	padding = 0; 
+	border = 0;
+	margin = 0;
+}
+	
+body{
+	background: #f7f9b3 url(mvf-header.jpg) center top no-repeat;
+
+}
+
+a{
+	color: #163cba;
+}
+
+.nav h1{
+	display : inline-block;
+	padding : 150px 100px 0 0;
+	
+}
+
+.nav h1:last-child{
+	padding-right: 0; 
+	
+}
+.nav h1:first-child{
+	margin-left: 400px;
+}
+
+form{
+	padding : 50px 0 0 600px;
+}
+
+
+input{
+	display: block;
+	padding-bottom: 10px;
+	width: 400px;
+	margin-bottom: 20px;
+}
+
+textarea{
+	display: block;
+	padding-bottom: 20px;
+	width: 400px;
+	margin-bottom: 20px;
+}
+
+
+input[type=checkbox], label[for=company]{
+	display: inline;
+}
+
+input[type=checkbox]{
+	 width: auto;
+	 margin-right: 25px;
+}
+
+input[type=submit]{
+	width: 200px;
+	margin-left: 110px;
+}

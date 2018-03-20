@@ -1,0 +1,35 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+	padding = 0; 
+	border = 0;
+	margin = 0;
+}
+	
+body{
+	background: #f7f9b3 url(mvf-header.jpg) center top no-repeat;
+
+}
+
+a{
+	color: #163cba;
+}
+
+.nav h1{
+	display : inline-block;
+	padding : 150px 100px 0 0;
+	
+}
+
+.nav h1:last-child{
+	padding-right: 0; 
+	
+}
+.nav h1:first-child{
+	margin-left: 400px;
+}
+
+.list{
+	padding: 100px 0 0 600px;
+	font-family: Helvetica, Arial, Times New Roman;
+	font-size: 26px;
+	font-style: bold;
+}
